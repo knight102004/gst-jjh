@@ -1,0 +1,36 @@
+PWA Icon Generation Instructions
+=================================
+
+To complete your PWA setup, you need to generate icons for different sizes.
+
+You can use these free tools:
+
+1. PWA Asset Generator (Recommended):
+   https://www.pwabuilder.com/imageGenerator
+   - Upload a 512x512px image
+   - It will generate all required sizes automatically
+
+2. Favicon.io:
+   https://favicon.io/
+   - Generate from text, image, or emoji
+
+3. RealFaviconGenerator:
+   https://realfavicongenerator.net/
+   - Upload your logo
+   - Generates all PWA icons
+
+Required Icon Sizes for PWA:
+- 72x72px (icon-72x72.png)
+- 96x96px (icon-96x96.png)
+- 128x128px (icon-128x128.png)
+- 144x144px (icon-144x144.png)
+- 152x152px (icon-152x152.png)
+- 192x192px (icon-192x192.png)
+- 384x384px (icon-384x384.png)
+- 512x512px (icon-512x512.png)
+
+Design Suggestion:
+Create a simple icon with a golden diamond/gem symbol on an amber background
+to match your app's theme.
+
+Once generated, place all PNG files in the /public/icons/ directory.
